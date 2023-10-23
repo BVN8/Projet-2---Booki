@@ -263,6 +263,12 @@ h3 {
 }
 
 .img_size {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img_container {
   height: 124px;
 }
 
@@ -337,11 +343,35 @@ h3 {
   margin-bottom: 5px;
 }
 
+
+/****** Activités à Marseille ***********/
+
+aside {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 30px;
+margin: 30px;
+}
+
+
+.card_activite {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+}
+
+.img_size_activite {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 /****** Footer ***********/
 
 footer {
   background-color: #f2f2f2;
-  margin-top: 20px;
+  margin-top: 35px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
