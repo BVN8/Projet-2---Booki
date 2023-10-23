@@ -350,14 +350,16 @@ aside {
 display: grid;
 grid-template-columns: repeat(4, 1fr);
 gap: 30px;
-margin: 30px;
+padding: 30px;
 }
 
-
 .card_activite {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  height: 100%;
   width: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  overflow: hidden;
+  display: grid;
+grid-template-rows: 380px auto;
 }
 
 .img_size_activite {
@@ -366,6 +368,14 @@ margin: 30px;
   object-fit: cover;
 }
 
+.card-title1 {
+font-size: 16px;
+font-weight: 700;
+border-radius: 20px;
+padding: 20px;
+
+
+}
 
 /****** Footer ***********/
 
