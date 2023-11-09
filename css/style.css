@@ -456,20 +456,29 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100vw;
+    margin-bottom: 30px;
   }
-
 
   body {
     padding: 0px;
   }
 
-  .populaires {
+  .populaires section {
     order: 1;
+    padding: 30px 20px 30px 20px;
   }
 
   .populaires-cards {
-    display: flex;
-    flex-direction: column;
+    display: block;
+  }
+
+  .infoinfo {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section-title {
+    padding: 0%;
   }
 
   .hebergements {
@@ -485,7 +494,6 @@ footer {
   .titre_pop {
     margin-bottom: 15px;
   }
-
 
   .hebergement_marseille_card {
     display: flex;
@@ -508,6 +516,56 @@ footer {
   ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .Filtres {
+    padding-left: 35px;
+  }
+
+  .logo_top {
+    display: block;
+  }
+
+  .menu_lien {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+
+  .logo_taille {
+    display: flex;
+    justify-content: center;
+  }
+
+  .phrase,
+  h1,
+  .conteneur_recherche {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .one {
+    grid-column: 1/2;
+  }
+
+  .two {
+    grid-column: 2/2;
+  }
+
+  .three {
+    grid-column: 1/1;
+  }
+
+  .four {
+    grid-column: 2/2;
   }
 
   aside {
