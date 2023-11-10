@@ -471,7 +471,6 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    margin-bottom: 30px;
   }
 
   body {
@@ -510,6 +509,22 @@ footer {
     align-items: center;
   }
 
+  .barre_recherche2 {
+    color: black;
+    border: solid 1px #f2f2f2;
+    text-align: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    height: 100%;
+    margin: 0;
+    padding: 0 16px;
+    box-sizing: border-box;
+    align-items: center;
+    width: 250px;
+    flex: 1;
+  }
+
   .barre_recherche3 {
     display: flex;
     background-color: #0065fc;
@@ -523,6 +538,10 @@ footer {
     padding: 0 16px;
     align-items: center;
     display: none;
+  }
+
+  .barre_recherche4 {
+    transform: translateX(-7px);
   }
 
   .hebergements {
@@ -581,15 +600,15 @@ footer {
     gap: 0%;
   }
 
-.logo_top {
-  display: block;
-}
+  .logo_top {
+    display: block;
+  }
 
-.logo_mobile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .logo_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .lien_entete1,
   .lien_entete2 {
@@ -602,7 +621,7 @@ footer {
 
   .lien_entete1:focus,
   .lien_entete2:focus {
-    border-bottom: solid 2px #0065FC;
+    border-bottom: solid 2px #0065fc;
     padding-bottom: 15px;
     border-top: transparent;
   }
@@ -611,7 +630,11 @@ footer {
   h1,
   .conteneur_recherche {
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 13px;
+  }
+
+  .infoinfo {
+    margin-bottom: 0px;
   }
 
   .one {
