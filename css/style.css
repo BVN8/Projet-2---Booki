@@ -98,6 +98,21 @@ i[class^="fa-"] {
   align-items: center;
 }
 
+.barre_recherche4 {
+  display: flex;
+  background-color: #0065fc;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 1em 1em 1em 1em;
+  font-weight: bold;
+  height: 100%;
+  margin: 0;
+  padding: 0 16px;
+  align-items: center;
+  display: none;
+}
+
 .logo_taille {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -481,6 +496,35 @@ footer {
     padding: 0%;
   }
 
+  .barre_recherche4 {
+    display: flex;
+    background-color: #0065fc;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1em 1em 1em 1em;
+    font-weight: bold;
+    height: 100%;
+    margin: 0;
+    padding: 0 16px;
+    align-items: center;
+  }
+
+  .barre_recherche3 {
+    display: flex;
+    background-color: #0065fc;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 1em 1em 1em 1em;
+    font-weight: bold;
+    height: 100%;
+    margin: 0;
+    padding: 0 16px;
+    align-items: center;
+    display: none;
+  }
+
   .hebergements {
     order: 2;
     display: flex;
@@ -526,23 +570,41 @@ footer {
     padding-left: 35px;
   }
 
-  .logo_top {
-    display: block;
-  }
-
   .menu_lien {
-    display: flex;
-    justify-content: space-evenly;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 15px;
+    gap: 0%;
   }
 
+.logo_top {
+  display: block;
+}
 
-  .logo_taille {
+.logo_mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .lien_entete1,
+  .lien_entete2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    border-bottom: solid 2px #f2f2f2;
+    padding-bottom: 15px;
+    border-top: transparent;
+  }
+
+  .lien_entete1:focus,
+  .lien_entete2:focus {
+    border-bottom: solid 2px #0065FC;
+    padding-bottom: 15px;
+    border-top: transparent;
   }
 
   .phrase,
