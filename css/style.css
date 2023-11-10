@@ -535,6 +535,7 @@ footer {
     margin: 0;
     padding: 0 16px;
     align-items: center;
+    transform: translateX(-15px);
   }
 
   .barre_recherche2 {
@@ -568,9 +569,6 @@ footer {
     display: none;
   }
 
-  .barre_recherche4 {
-    transform: translateX(-7px);
-  }
 
   .hebergements {
     order: 2;
@@ -658,7 +656,7 @@ footer {
   h1,
   .conteneur_recherche {
     padding-left: 20px;
-    padding-right: 13px;
+    padding-right: 5px;
   }
 
   .infoinfo {
